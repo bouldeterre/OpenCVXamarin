@@ -1,0 +1,15 @@
+# Ignores Packages and build folders
+packages/
+[Dd]ebug/
+[Oo]bj
+[Bb]in
+*.suo
+*.user
+*.userprefs
+*.log
+.cs
+Resource.Designer.cs
+*.cache
+*.mdf
+*.ldf
+*.ncrunchproject
