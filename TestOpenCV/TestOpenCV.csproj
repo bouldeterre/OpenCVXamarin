@@ -44,6 +44,8 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CallbackOpenCVLoader.cs" />
+    <Compile Include="CvCameraActivity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,13 +77,82 @@
     <AndroidResource Include="Resources\values\attrs.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidAsset Include="Assets\haarcascade_frontalface_alt.xml" />
+    <AndroidAsset Include="Assets\lbpcascade_frontalcatface.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\lbpcascade_frontalface.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\lbpcascade_profileface.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\lbpcascade_silverware.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_eye.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_eye_tree_eyeglasses.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_frontalface_alt.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_frontalface_alt_tree.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_frontalface_alt2.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_frontalface_default.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_fullbody.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_lefteye_2splits.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_lowerbody.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_profileface.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_righteye_2splits.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_smile.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascades_cuda\haarcascade_upperbody.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\haarcascade_eye.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Assets\haarcascade_eye_tree_eyeglasses.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascade_frontalface_alt.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascade_frontalface_alt_tree.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascade_frontalface_alt2.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascade_frontalface_default.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascade_lefteye_2splits.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\haarcascade_righteye_2splits.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Assets\lbpcascades\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>
