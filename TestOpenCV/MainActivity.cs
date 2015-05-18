@@ -41,6 +41,7 @@ namespace TestOpenCV
 
                 _button = FindViewById<Button>(Resource.Id.button1);
 
+               _mOpenCvCameraView.SetMaxFrameSize(320, 240);
                 _mOpenCvCameraView.EnableView();
                 _mOpenCvCameraView.EnableFpsMeter();
                 _button.Click += delegate { _mOpenCvCameraView.SetCvCameraViewListener(this); };

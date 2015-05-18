@@ -195,6 +195,7 @@ namespace TestOpenCV
                 }
 #endif
             }
+
             return frame;
         }
 
